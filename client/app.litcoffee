@@ -7,7 +7,9 @@ App will set up the routers for each module
 
       'modules/campaignLineItem/model'
       'modules/campaignLineItem/view'
-    ], ($, _, Backbone, CampaignLineItemModel, CampaignLineItemView) ->
+
+      'oaMission'
+    ], ($, _, Backbone, CampaignLineItemModel, CampaignLineItemView, oaMission) ->
 
       class App
 
@@ -20,6 +22,10 @@ Create some simple instances of our Backbone components
 
           model = new CampaignLineItemModel()
           view = new CampaignLineItemView model: model
+
+Example of using everything that comes with a module
+
+          console.log oaMission
 
 Start Backbone listening for internal links
 

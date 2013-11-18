@@ -12,6 +12,10 @@ Configure the paths to our own external libs
         oaLineItemModel: '../../bower_components/secret-octo-archer/lib/modules/lineItem/model'
         oaLineItemView: '../../bower_components/secret-octo-archer/lib/modules/lineItem/view'
 
+A module could include everything bundled up
+
+        oaMission: '../../bower_components/secret-octo-archer/lib/modules/mission/mission'
+
 Start our app
 
     require ['app'], (App) ->
