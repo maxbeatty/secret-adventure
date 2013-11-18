@@ -1,12 +1,13 @@
 Simple view that extends our custom external lib
 
     define [
-      'backbone'
-    ], (Backbone) ->
+      'oaLineItemView'
+    ], (oaLineItemView) ->
 
-      class CampaignLineItemView extends Backbone.View
+      class CampaignLineItemView extends oaLineItemView
 
         events: {}
 
         initialize: ->
+          super()
           console.log 'new view coming at ya', @model

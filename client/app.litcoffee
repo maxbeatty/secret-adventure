@@ -21,7 +21,7 @@ Create some simple instances of our Backbone components
           model = new CampaignLineItemModel()
           view = new CampaignLineItemView model: model
 
-Start Backbone
+Start Backbone listening for internal links
 
           $(document).on 'click', 'a[data-internal]', (e) ->
             e.preventDefault()
