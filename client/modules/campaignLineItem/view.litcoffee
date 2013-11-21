@@ -1,7 +1,7 @@
 Simple view that extends our custom external lib
 
     define [
-      'oaLineItemView'
+      'macula/modules/lineItem/view'
     ], (oaLineItemView) ->
 
       class CampaignLineItemView extends oaLineItemView

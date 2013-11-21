@@ -1,7 +1,7 @@
 Simple model that extends our custom external lib
 
     define [
-      'oaLineItemModel'
+      'macula/modules/lineItem/model'
     ], (oaLineItemModel) ->
 
       class CampaignLineItemModel extends oaLineItemModel
