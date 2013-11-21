@@ -13,6 +13,6 @@
     "lodash": "1.3.1",
     "requirejs": "2.1.9",
     "backbone-amd": "~1.1.0",
-    "secret-octo-archer": "git://github.com/maxbeatty/secret-octo-archer.git"
+    "secret-octo-archer": "git://github.com/cbaclig/secret-octo-archer.git"
   }
 }
