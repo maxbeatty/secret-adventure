@@ -8,7 +8,7 @@ App will set up the routers for each module
       'modules/campaignLineItem/model'
       'modules/campaignLineItem/view'
 
-      'oaMission'
+      'macula/modules/mission/mission'
     ], ($, _, Backbone, CampaignLineItemModel, CampaignLineItemView, oaMission) ->
 
       class App
